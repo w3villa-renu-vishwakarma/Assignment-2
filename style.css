@@ -1,0 +1,439 @@
+*{
+padding: 0;
+margin: 0;
+}
+.main{
+    height: 80vh;;
+    background-color: #ffede9
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px; 
+
+    
+}
+
+.top .logo a{
+    font-weight: 300;
+    font-size: 40px;
+    text-decoration: none;
+    color: #613dc1;
+    background-color: none;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 73px;
+}
+
+.top .nav a{ 
+    font-weight:100 ;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    /* justify-content: space-evenly; */
+    text-align: center;
+
+
+}
+.top .nav{
+    justify-content: space-evenly;
+    padding-right: 80px;
+}
+
+.top .nav button {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    
+    background-color: #210095;
+    border-radius: 5px;
+    padding: 10px;
+}
+.top .nav button a{
+    color: white;
+}
+
+.first .mid{
+    margin: 30px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mid .left {
+    margin-right: 150px;
+}
+.mid .left h3{
+    margin-left: 80px;
+    font-size: 20px;
+    color: black;
+
+}
+.mid .left h2{
+    margin-left: 80px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #04004d;
+}
+
+.mid .left p{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(88, 87, 87);
+}
+.mid .left button{
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(33, 33, 97);
+    padding: 10px;
+    color: white;
+}
+
+.mid .right {
+    display:flex;
+    justify-content: space-between; 
+    
+}
+.box1{
+    margin-left: 165px;
+    margin-top: 130px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.circle{
+    margin-top: 123px;
+    margin-right: 170px;
+    height: 72px;
+    width: 72px;
+    background-color: #613dc1;
+    border-radius: 50%;
+}
+
+.box2{
+    margin-left: 198px;
+    margin-top: 91px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+.second{
+    height: 100vh;
+}
+.head{
+    text-align: center;
+    margin:50px ;
+    
+}
+.head h2{
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(33, 33, 97);
+}
+
+.head h4{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(151, 144, 144);
+}
+
+.middle{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.middle .x i{ 
+    color: white;
+    background-color: #ffd052;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.middle.x h3{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(33, 33, 97);
+}
+.y i{ 
+    color: white;
+    background-color: #ff7374;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.y h3{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(33, 33, 97);
+}
+
+.z i{ 
+    color: white;
+    background-color: #613dc1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+.z h3{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(33, 33, 97);
+}
+
+.second .bottom{
+    /* position: fixed; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second .bottom .left{
+    /* position:absolute;  */
+    background-color: #d2fbf7;
+    border-radius: 20px;
+    box-shadow:-10px 10px #858be3;
+}
+.second .bottom .left .A{
+    position: relative;
+    right: -35px;
+    background-color: white;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.second .bottom .left .B{
+    position: relative;
+    right: 35px;
+    background-color: white;
+    display: flex;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.second .bottom .right h2{
+    margin-left: 80px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(33, 33, 97);
+}
+
+.second .bottom .right p{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(88, 87, 87);
+}
+.second .bottom .right button{
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #210095;
+    padding: 10px;
+    color: white;
+}  
+.third{
+    height: 80vh;
+}
+
+.third .top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.third .top .left {
+    margin-left: 220px;
+}
+
+
+.third .top .left h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(33, 33, 97);
+    padding: 10px;
+
+}
+.third .top .left p{
+    font-size: 20px;
+    color: rgb(88, 87, 87);
+    padding: 20px;
+
+}
+.third .top .right {
+    margin-right: 100px;
+    margin-top: 125px;
+}
+.third .top .right a {
+font-size: 20px;
+}
+.third .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.imge2{
+    border-radius: 20px;
+}
+.t{
+    position: relative;
+    top: -22px;
+    left: 48px;
+    background-color: white;
+    border-radius: 19px;
+}
+
+.t h1{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(33, 33, 97);
+}
+.t h2{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(33, 33, 97);
+}
+.t h5{
+    padding-left: 10px;
+    font-size: 18px;
+    color: rgb(88, 87, 87);
+}
+.duration{
+    padding-left: 10px;
+}
+.duration span{
+   font-size: 10px;
+
+}
+.fourth{
+    height: 50vh;
+    background-color: #ffede9;
+    text-align: center;
+
+
+}
+.fourth .top1{
+    padding: 50px;
+}
+.fourth .top1 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(33, 33, 97);
+}
+.fourth .top1 h4{
+    font-size: 20px;
+    color:rgb(88, 87, 87);
+}
+.fourth .bottom1{
+    display: flex;
+    margin-left: 660px;
+    margin-top: 50px;
+}
+
+.fourth .bottom1 input{
+padding: 30px;
+border-radius: 10px;
+width: 300px;} 
+
+.fourth .bottom1 input .value{
+font-size: 20px;
+font-weight: 300;
+}
+
+.fourth .bottom1 button{
+    position: relative;
+    top: 0px;
+    right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #210095;
+    padding: 26px;
+    color: white;
+}
+.fifth{
+    height: 50vh;
+    padding: 30px;
+}
+.top2{
+    display: flex;
+    justify-content: space-evenly;
+    margin:  30px;
+}
+.w h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(33, 33, 97) ;
+    margin-bottom: 10px;
+
+}
+.w p{
+    font-size: 20px;
+    color: rgb(88, 87, 87);
+}
+.q h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(33, 33, 97) ;
+    margin-bottom: 10px;
+}
+.q h4{
+    font-size: 20px;
+    color:rgb(133, 128, 128) ;
+    padding: 10px;
+}
+.r h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(33, 33, 97) ;
+    margin-bottom: 10px;
+
+}
+.r h4{
+    font-size: 20px;
+    color:rgb(88, 87, 87) ;
+    padding: 10px;
+
+}
+.s h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(33, 33, 97) ;
+    margin-bottom: 10px;
+
+}
+.bottom2 h3{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(88, 87, 87);;
+}
+.s i{
+    border-radius: 4px;
+    background-color: #ffede9;
+    color: #613dc1;
+    padding: 10px;
+}
